@@ -1,0 +1,26 @@
+import pandas as pd
+df = pd.read_csv('CYCLE times RH cleaned.csv')
+df
+
+df.describe()
+df.shape
+
+h =20
+m = 32
+f = 15
+l = 12
+S = 8
+
+h > 30
+
+def status (person):
+    if (person >=20):
+        print("adult")
+    elif (person >= 14):
+        print ("teenager")
+    else: print("child")
+    
+
+status(h)
+
+class_list=[h,f,l,m,S]
