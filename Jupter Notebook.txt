@@ -1,0 +1,31 @@
+import numpy as np
+
+prime= np.array([1,3,5,7,9,11,13,17,19])
+
+class_list=[['haytham','male'],'leila','frank']
+
+import pandas as pd
+
+retail_data = pd.read_csv('online_retail2.csv') // Assuming the CSV file is in the same directory
+retail_data
+
+####discovery functions
+
+retail_data.head()
+
+retail_data.tail()
+
+retail_data.shape()
+
+retail_data.describe()
+
+retail_data.Quantity.describe()
+
+retail_data.Country.value_counts()
+
+retail_data.info()
+
+...........................
+
+
+
